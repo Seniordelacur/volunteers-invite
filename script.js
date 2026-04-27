@@ -1,7 +1,8 @@
 const guests = {
-  nurislam: "Nurislam",
-  zhanat: "Zhanat",
-  aiganym: "Aiganym",
+  nurislam: "Nurislam Nuraddinov",
+  zhanat: "Zhanat Salimova",
+  aiganym: "Aiganym Aitenova",
+  aiym: "Aiym Shaimerden",
   default: "guest"
 };
 
