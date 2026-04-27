@@ -1,5 +1,5 @@
 const guests = {
-  alen: "Alen",
+  nurislam: "Nurislam",
   yeren: "Yeren",
   dana: "Dana",
   default: "қонақ"
@@ -9,7 +9,7 @@ const params = new URLSearchParams(window.location.search);
 const id = params.get("id") || "default";
 document.getElementById("guestName").textContent = guests[id] || id;
 
-const eventDate = new Date("2026-05-10T19:00:00+05:00");
+const eventDate = new Date("2026-04-28T19:00:00+05:00");
 
 function updateCountdown() {
   const now = new Date();
