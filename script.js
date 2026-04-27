@@ -34,3 +34,10 @@ function updateCountdown() {
 
 updateCountdown();
 setInterval(updateCountdown, 1000);
+window.addEventListener("load", () => {
+  confetti({
+    particleCount: 120,
+    spread: 80,
+    origin: { y: 0.6 }
+  });
+});
