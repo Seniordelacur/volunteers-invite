@@ -1,8 +1,8 @@
 const guests = {
   nurislam: "Nurislam",
-  yeren: "Yeren",
-  dana: "Dana",
-  default: "қонақ"
+  zhanat: "Zhanat",
+  aiganym: "Aiganym",
+  default: "guest"
 };
 
 const params = new URLSearchParams(window.location.search);
